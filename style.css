@@ -8,7 +8,6 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
 }
 
 .header-links {
@@ -19,9 +18,7 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
-
-    padding: 10px 0px;
-
+    padding: 10px 0px 60px;
 }
 
 .header-logo {
@@ -32,34 +29,33 @@ body {
 .text {
     display: flex;
     flex-direction: column;
-    width: 50%;
     gap: 10px;
 }
 
-img {
+img, .main-image {
     object-fit: cover;
     flex-grow: 0;
-    padding-right: 50px;
+    border-radius: 20px;
+}
+
+.main-image {
+    border: 2px solid blue;
 }
 
 .first {
     display: flex;
-
-    flex-grow: 1;
-    align-items: center;
     justify-content: space-between;
-}
-
-.third {
-    background: #E5E7EB;
+    gap: 100px;
+    align-items: center;
 }
 
 .second, .fourth {
     background: white;
+    padding: 60px 100px 60px;
 }
 
-.head-section, .second, .third, .fourth {
-    flex-grow: 1;
+.head-section {
+    padding: 0px 100px 60px;
 }
 
 .h-link {
@@ -72,9 +68,6 @@ img {
     color: #F9FAF8;
 }
 
-.hero-text {
-
-}
 .hero-text, .h-link {
     font-size: 18px;
     color: #E5E7EB;
@@ -85,14 +78,58 @@ img {
     flex-direction: column;
 }
 
-.footer {
-    height: 50px;
-}
-
 button {
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
     height: 26px;
     width: 100px;
+}
+
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-image {
+    flex-basis: 0;
+    width:220px;
+}
+
+.third {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 300px;
+}
+
+.quote {
+    align-self: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.footer {
+    height: 50px;
 }
