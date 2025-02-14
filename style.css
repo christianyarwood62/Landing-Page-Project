@@ -45,8 +45,6 @@ img, .main-image {
 
 .main-image {
     border: 2px solid blue;
-    max-width: 100%;
-    height: auto;
 }
 
 .first {
@@ -59,7 +57,6 @@ img, .main-image {
 .second {
     background: white;
     padding: 60px 100px 60px;
-    flex-shrink: 1;
 }
 
 .head-section {
@@ -113,6 +110,11 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.main-image {
+    flex-basis: 0;
+    width:220px;
 }
 
 .third {
