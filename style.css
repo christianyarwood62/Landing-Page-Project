@@ -12,7 +12,7 @@ body {
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 60px;
 }
 
 .head {
