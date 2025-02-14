@@ -1,6 +1,6 @@
 body {
     display: flex;
-    height: 1000px;
+    height: auto;
     margin: 0px;
 }
 
@@ -49,7 +49,7 @@ img, .main-image {
     align-items: center;
 }
 
-.second, .fourth {
+.second {
     background: white;
     padding: 60px 100px 60px;
 }
@@ -97,7 +97,7 @@ button {
     display: flex;
     justify-content: center;
     margin: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .info {
@@ -123,13 +123,47 @@ button {
 .quote {
     align-self: center;
     font-style: italic;
-    font-size: 30px;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .author {
     align-self: flex-end;
+    font-weight: 900;
+}
+
+.fourth {
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.last-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-header {
+    font-weight: 800;
+    color: white;
+    font-size: 20px;
+}
+
+.sign-up {
+    color:lightgray;
+}
+
+.sign-up-button {
+    border-color: white;
 }
 
 .footer {
-    height: 50px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
