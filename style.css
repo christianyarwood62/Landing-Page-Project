@@ -2,7 +2,6 @@ body {
     display: flex;
     height: auto;
     margin: 0px;
-    width:100%;
 }
 
 .head-section {
@@ -121,7 +120,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 80px 300px;
+    padding: 80px 100px;
 }
 
 .quote {
