@@ -124,7 +124,6 @@ button {
     padding: 80px 100px;
     box-sizing: border-box;
     width: 100%;
-    flex-shrink: 1;
 }
 
 .quote {
