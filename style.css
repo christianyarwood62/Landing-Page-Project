@@ -31,11 +31,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 50%;
+    width: 65%;
 }
 
 .main-photo {
-    width: 50%;
+    width: 35%;
 }
 
 img, .main-image {
