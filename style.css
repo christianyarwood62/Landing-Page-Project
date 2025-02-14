@@ -121,11 +121,6 @@ button {
     flex-direction: column;
     justify-content: center;
     padding: 80px 100px;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    width: 100%;
-=======
->>>>>>> parent of 0cd5656 (revert changes to quote section)
 }
 
 .quote {
