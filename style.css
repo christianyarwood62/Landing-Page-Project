@@ -9,6 +9,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 0px 100px 60px;
 }
 
 .header-links {
@@ -59,10 +60,6 @@ img, .main-image {
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.head-section {
-    padding: 0px 100px 60px;
 }
 
 .h-link {
