@@ -54,6 +54,10 @@ body {
         flex-direction: column;
         gap: 20px
     }
+    .second-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .header-links {
