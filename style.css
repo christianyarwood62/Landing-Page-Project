@@ -2,7 +2,6 @@
 body {
     display: flex;
     height: auto;
-    margin: 0px;
 }
 
 .head-section {
@@ -46,13 +45,18 @@ body {
     .head-section {
         padding: 0px 20px 60px
     }
+    .head {
+        padding: 0px 20px 60px
+    }
     .second, .third, .fourth {
         padding: 3%;
     }
     .first {
         display: flex;
         flex-direction: column;
-        gap: 20px
+        gap: 20px;
+        align-items: center;
+        width: 100%;
     }
     .second-container {
         display: flex;
