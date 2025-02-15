@@ -17,11 +17,29 @@ body {
     padding: 60px 100px 60px;
 }
 
+.third {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.fourth {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
 @media (max-width: 700px){
     .head-section {
         padding: 0px 20px 60px
     }
-    .second {
+    .second, .third, .fourth {
         padding: 3%;
     }
 }
@@ -122,14 +140,6 @@ button {
     width: 80%;
 }
 
-.third {
-    background: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 80px 100px;
-}
-
 .quote {
     align-self: center;
     font-style: italic;
@@ -140,16 +150,6 @@ button {
 .author {
     align-self: flex-end;
     font-weight: 900;
-}
-
-.fourth {
-    display: flex;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 100px;
-    box-sizing: border-box;
 }
 
 .sign-up-area {
