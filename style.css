@@ -18,6 +18,17 @@ body {
     align-items: center;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.main-photo {
+    width: 35%;
+}
+
 .second {
     background: white;
     padding: 60px 100px 60px;
@@ -55,7 +66,11 @@ body {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        align-items: center;
+    }
+    .text {
+        width: 100%
+    }
+    .main-photo {
         width: 100%;
     }
     .second-container {
@@ -78,17 +93,6 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 65%;
-}
-
-.main-photo {
-    width: 35%;
 }
 
 img, .main-image {
