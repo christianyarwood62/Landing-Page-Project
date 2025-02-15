@@ -144,6 +144,8 @@ button {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 40px 100px;
+    box-sizing: border-box;
 }
 
 .sign-up-area {
